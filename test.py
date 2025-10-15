@@ -1,6 +1,6 @@
 import unittest
 from app import helloworld
-class TestHelloWorld(unittest.testcase):
+class TestHelloWorld(unittest.TestCase):
     def test_hello_world(self):
         self.assertEqual(helloworld, "Hello_World")
 
